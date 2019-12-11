@@ -1,0 +1,17 @@
+{
+  "name": "structural",
+  "version": "1.0.0",
+  "description": "Employee Management System",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "cd backend && cd server && npm run dev",
+    "client": "cd frontend && cd ems && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC"
+}
